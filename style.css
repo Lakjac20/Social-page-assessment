@@ -1,0 +1,82 @@
+* {box-sizing: border-box;}
+
+.Header-box {
+    position: relative;
+    background-color: #4a5a9e;
+    height: 400px;
+    width: 850px;
+    border: 1px solid grey;
+}
+.headertext{
+    position: relative;
+    top: 80px;
+    left: 215px;
+}
+.Photobox {
+    
+    background-color: pink;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: 250px;
+    left: 10px; 
+}
+nav {
+    background-color: white;
+    border: 1px solid grey;
+    height: 80px;
+    width: 850px;
+}
+
+.Profile-links {
+    position: relative;
+    height: 0px;
+}
+.Profile-links li {
+    list-style: none;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    top: 10px;
+    left: 175px;
+}
+.mybuttons {
+    position: absolute;
+    top: 370px;
+    left: 580px;
+    
+}
+
+.row {
+    
+    height: 800px;
+    width: 850px;
+}
+
+.column1 {
+    border: 2px red solid;
+    text-align: left;
+    width: 328px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+
+}
+
+.column2 {
+    border: 2px black dotted;
+    height: 350px;
+    width: 502px;
+    position: relative;
+    left: 345px;
+    top: -100px;
+}
+
+.column2 nav {
+    height: 30px;
+    width: 502px;
+    list-style: none;
+    position: relative;
+    top: 315px;
+}
