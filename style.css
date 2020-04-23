@@ -1,8 +1,11 @@
-* {box-sizing: border-box;}
+* {box-sizing: border-box;
+}
+
 
 .Header-box {
     position: relative;
     background-color: #4a5a9e;
+    margin: 0 auto;
     height: 400px;
     width: 850px;
     border: 1px solid grey;
@@ -16,6 +19,7 @@
     
     background-color: pink;
     position: relative;
+    
     height: 200px;
     width: 200px;
     top: 250px;
@@ -24,6 +28,7 @@
 nav {
     background-color: white;
     border: 1px solid grey;
+    margin: 0 auto;
     height: 80px;
     width: 850px;
 }
@@ -34,7 +39,7 @@ nav {
 }
 .Profile-links li {
     list-style: none;
-    display: inline;
+    display: inline-block;
     position: relative;
     padding: 10px;
     font-size: 20px;
@@ -44,12 +49,12 @@ nav {
 .mybuttons {
     position: absolute;
     top: 370px;
-    left: 580px;
+    left: 730px;
     
 }
 
 .row {
-    
+    margin: 0 auto;
     height: 800px;
     width: 850px;
 }
@@ -65,18 +70,11 @@ nav {
 }
 
 .column2 {
+    
     border: 2px black dotted;
     height: 350px;
-    width: 502px;
+    width: 512px;
     position: relative;
     left: 345px;
     top: -100px;
-}
-
-.column2 nav {
-    height: 30px;
-    width: 502px;
-    list-style: none;
-    position: relative;
-    top: 315px;
 }
